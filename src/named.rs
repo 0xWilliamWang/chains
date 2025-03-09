@@ -168,7 +168,7 @@ pub enum NamedChain {
 
     Moonbase = 1287,
 
-    Dev = 1337,
+    Dev = 25371,
     #[strum(to_string = "anvil-hardhat", serialize = "anvil", serialize = "hardhat")]
     #[cfg_attr(
         feature = "serde",
@@ -574,7 +574,7 @@ impl NamedChain {
 
             Emerald | Darwinia | Crab | Koi => 6_000,
 
-            Dev | AnvilHardhat => 200,
+            AnvilHardhat => 200,
 
             Celo | CeloAlfajores | CeloBaklava => 5_000,
 
@@ -591,6 +591,7 @@ impl NamedChain {
             Etherlink => 5_000,
 
             EtherlinkTestnet => 5_000,
+            Dev => 6_000,
 
             Degen => 600,
 
