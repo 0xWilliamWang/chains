@@ -732,18 +732,6 @@
       "etherscanBaseUrl": "https://sepolia.uniscan.xyz",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
     },
-    "1337": {
-      "internalId": "Dev",
-      "name": "dev",
-      "averageBlocktimeHint": 200,
-      "isLegacy": false,
-      "supportsShanghai": false,
-      "isTestnet": true,
-      "nativeCurrencySymbol": null,
-      "etherscanApiUrl": null,
-      "etherscanBaseUrl": null,
-      "etherscanApiKeyName": null
-    },
     "1442": {
       "internalId": "PolygonZkEvmTestnet",
       "name": "polygon-zkevm-testnet",
@@ -1103,6 +1091,18 @@
       "etherscanApiUrl": "https://api-holesky.etherscan.io/api",
       "etherscanBaseUrl": "https://holesky.etherscan.io",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
+    },
+    "25371": {
+      "internalId": "Dev",
+      "name": "dev",
+      "averageBlocktimeHint": 6000,
+      "isLegacy": false,
+      "supportsShanghai": true,
+      "isTestnet": true,
+      "nativeCurrencySymbol": null,
+      "etherscanApiUrl": null,
+      "etherscanBaseUrl": null,
+      "etherscanApiKeyName": null
     },
     "26863": {
       "internalId": "Oasis",

@@ -184,7 +184,7 @@ pub enum NamedChain {
 
     Moonbase = 1287,
 
-    Dev = 1337,
+    Dev = 25371,
     #[strum(to_string = "anvil-hardhat", serialize = "anvil", serialize = "hardhat")]
     #[cfg_attr(
         feature = "serde",
@@ -701,9 +701,9 @@ impl NamedChain {
 
             Oasis => 5_500,
 
-            Emerald | Darwinia | Crab | Koi => 6_000,
+            Emerald | Darwinia | Crab | Koi | Dev => 6_000,
 
-            Dev | AnvilHardhat => 200,
+            AnvilHardhat => 200,
 
             Celo | CeloAlfajores | CeloBaklava => 5_000,
 
@@ -1008,6 +1008,7 @@ impl NamedChain {
                 | SuperpositionTestnet
                 | Superposition
                 | MonadTestnet
+                | Dev
         )
     }
 
