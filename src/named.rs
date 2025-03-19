@@ -184,7 +184,7 @@ pub enum NamedChain {
 
     Moonbase = 1287,
 
-    Dev = 25371,
+    Dev = 213,
     #[strum(to_string = "anvil-hardhat", serialize = "anvil", serialize = "hardhat")]
     #[cfg_attr(
         feature = "serde",
@@ -586,7 +586,7 @@ impl NamedChain {
     pub const fn is_ethereum(&self) -> bool {
         use NamedChain::*;
 
-        matches!(self, Mainnet | Morden | Ropsten | Rinkeby | Goerli | Kovan | Holesky | Sepolia)
+        matches!(self, Dev | Mainnet | Morden | Ropsten | Rinkeby | Goerli | Kovan | Holesky | Sepolia)
     }
 
     /// Returns true if the chain contains Optimism configuration.
@@ -596,6 +596,7 @@ impl NamedChain {
         matches!(
             self,
             Optimism
+                | Dev
                 | OptimismGoerli
                 | OptimismKovan
                 | OptimismSepolia
