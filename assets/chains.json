@@ -300,6 +300,18 @@
       "etherscanBaseUrl": "https://opbnb.bscscan.com",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
     },
+    "213": {
+      "internalId": "Dev",
+      "name": "dev",
+      "averageBlocktimeHint": 6000,
+      "isLegacy": false,
+      "supportsShanghai": false,
+      "isTestnet": true,
+      "nativeCurrencySymbol": null,
+      "etherscanApiUrl": null,
+      "etherscanBaseUrl": null,
+      "etherscanApiKeyName": null
+    },
     "250": {
       "internalId": "Fantom",
       "name": "fantom",
@@ -863,18 +875,6 @@
       "etherscanApiUrl": "https://api-holesky.etherscan.io/api",
       "etherscanBaseUrl": "https://holesky.etherscan.io",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
-    },
-    "25371": {
-      "internalId": "Dev",
-      "name": "dev",
-      "averageBlocktimeHint": 6000,
-      "isLegacy": false,
-      "supportsShanghai": false,
-      "isTestnet": true,
-      "nativeCurrencySymbol": null,
-      "etherscanApiUrl": null,
-      "etherscanBaseUrl": null,
-      "etherscanApiKeyName": null
     },
     "26863": {
       "internalId": "Oasis",
