@@ -168,7 +168,7 @@ pub enum NamedChain {
 
     Moonbase = 1287,
 
-    Dev = 213,
+    Dev = 223,
     #[strum(to_string = "anvil-hardhat", serialize = "anvil", serialize = "hardhat")]
     #[cfg_attr(
         feature = "serde",

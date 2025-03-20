@@ -300,7 +300,7 @@
       "etherscanBaseUrl": "https://opbnb.bscscan.com",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
     },
-    "213": {
+    "223": {
       "internalId": "Dev",
       "name": "dev",
       "averageBlocktimeHint": 6000,
