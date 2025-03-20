@@ -348,18 +348,6 @@
       "etherscanBaseUrl": "https://opbnb.bscscan.com",
       "etherscanApiKeyName": "ETHERSCAN_API_KEY"
     },
-    "213": {
-      "internalId": "Dev",
-      "name": "dev",
-      "averageBlocktimeHint": 6000,
-      "isLegacy": false,
-      "supportsShanghai": true,
-      "isTestnet": true,
-      "nativeCurrencySymbol": null,
-      "etherscanApiUrl": null,
-      "etherscanBaseUrl": null,
-      "etherscanApiKeyName": null
-    },
     "216": {
       "internalId": "HappychainTestnet",
       "name": "happychain-testnet",
@@ -370,6 +358,18 @@
       "nativeCurrencySymbol": "HAPPY",
       "etherscanApiUrl": "https://happy-testnet-sepolia.explorer.caldera.xyz/api",
       "etherscanBaseUrl": "https://happy-testnet-sepolia.explorer.caldera.xyz",
+      "etherscanApiKeyName": null
+    },
+    "223": {
+      "internalId": "Dev",
+      "name": "dev",
+      "averageBlocktimeHint": 6000,
+      "isLegacy": false,
+      "supportsShanghai": true,
+      "isTestnet": true,
+      "nativeCurrencySymbol": null,
+      "etherscanApiUrl": null,
+      "etherscanBaseUrl": null,
       "etherscanApiKeyName": null
     },
     "250": {
